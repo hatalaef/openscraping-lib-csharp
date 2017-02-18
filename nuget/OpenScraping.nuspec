@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>OpenScraping</id>
-    <version>0.0.5</version>
+    <version>0.1.0</version>
     <title>OpenScraping HTML Structured Data Extraction C# Library</title>
     <authors>Ovidiu Dan</authors>
     <owners>Ovidiu Dan</owners>
@@ -15,8 +15,8 @@
     <tags>html extraction scraping scraper parser parsing open scraping openscraping</tags>
     <dependencies> 
        <group>
-          <dependency id="HtmlAgilityPack" version="1.4.9" />
-          <dependency id="Newtonsoft.Json" version="8.0.2" />
+          <dependency id="HtmlAgilityPack" version="1.4.9.5" />
+          <dependency id="Newtonsoft.Json" version="9.0.1" />
        </group>
     </dependencies> 
   </metadata>
