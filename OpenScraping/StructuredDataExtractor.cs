@@ -125,7 +125,7 @@ namespace OpenScraping
 
                     if (nodes != null && nodes.Count > 0)
                     {
-                        var newLogicalParents = logicalParents.GetRange(0, logicalParents.Count);
+                        var newLogicalParents = new List<HtmlAgilityPack.HtmlNode>(logicalParents);
                         newLogicalParents.Add(parentNode);
 
                         foreach (var node in nodes)

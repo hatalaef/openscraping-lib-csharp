@@ -1,0 +1,8 @@
+﻿{
+  "articles": 
+  {
+    "_xpath": "//ul/li/a",
+    "title": "text()",
+    "url": "text()"
+  }
+}
